@@ -1,0 +1,21 @@
+<%- include("layouts/header.ejs") %>
+<div class="typewriter"></div>
+<form method="post" action="/Account">
+    <div>
+        <input hidden id="skill" name="skill" value="c++">
+        <button class="btn btn-primary" type="submit">Button</button>
+    </div>
+</form>
+   
+   
+ <form method="post" action="/Account">
+        <div>
+            <input hidden id="skill" name="skill" value="c#">
+            <button class="btn btn-primary" type="submit">Button</button>
+        </div>
+    </form>
+
+    <div class="container">
+        <input class="input-tags" type="text" data-role="tagsinput">
+      </div>
+<%- include ('layouts/footer.ejs') %>
